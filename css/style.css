@@ -99,10 +99,7 @@ a:visited{
     .gallery, #gallery{
         display: none;
     }
-    .card>ul li:nth-child(odd)::marker {
+    .card>ul li:nth-child(odd)::before, .card>ul li:nth-child(even)::after {
         content: "👍";
       }
-    .card>ul li:nth-child(even)::after{
-        content: "👍";
-    }
 }
