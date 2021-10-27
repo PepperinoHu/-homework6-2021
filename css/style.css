@@ -29,6 +29,9 @@ a:visited{
 .pricing, .gallery{
     justify-content: center;
     flex-wrap: wrap;
+    
+}
+.pricing{
     align-items: center;
 }
 
@@ -83,17 +86,19 @@ a:visited{
     body{
         background-image:none;
     } 
+    nav{
+        width:100%;
+      }
     .nav_links{
         flex-direction: row;
         justify-content: space-around;
     }
-
     .pricing{
         flex-wrap: nowrap;
         align-items: flex-end;
     }
     .card{
-        border: solid border 2px#45ADDD; 
+        border: solid 2px#45ADDD; 
         flex-basis: 250px;
     }
     .gallery, #gallery{
