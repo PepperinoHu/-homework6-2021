@@ -71,6 +71,9 @@ a:visited{
         position: sticky;
         top: 0;
         width: 100%;
+        bottom: 0;
+        left: 0; 
+        right: 0;
     }
     .card{
         flex-basis: 250px;
